@@ -14,6 +14,15 @@ body {
   -webkit-font-smoothing: antialiased !important;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style: none;
+}
+
 body,
 input,
 button {
@@ -34,10 +43,84 @@ button {
   cursor: pointer;
 }
 
+.text-center {
+  text-align: center;
+}
+
+.btn {
+  border-radius: 4px;
+  border: none;
+  padding: 5px 10px;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
 .orange--topbar {
   width: 100%;
   height: 20px;
   background: #f3931e;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.control--navbar--width {
+  width: 80%;
+  display: flex;
+  max-width: 1332px;
+  justify-content: space-around;
+}
+
+.logo--side {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav--side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+}
+
+.nav--links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.nav-link {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: black;
+  font-size: 1.2em;
+  transition: font-size 0.2s;
+}
+
+.nav-link:hover {
+  font-size: 1.3em;
+}
+
+.btn-primary {
+  background: #4c89ad;
+  color: white;
+  width: 15%;
+  height: 40%;
+  transition: background 0.2s;
+}
+
+.btn-primary:hover {
+  background: #2e607d;
 }
 
 footer {
